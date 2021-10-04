@@ -1,0 +1,56 @@
+//Plus besoin d'une table action, tout sera contenu dans les actions elles-mêmes
+//Seules les valeurs qui serviront à l'initialisatiion seront gardées
+
+CREATE TABLE Users(
+    IDUser INT PRIMARY KEY,
+    Username VARCHAR(50),
+    Password VARCHAR(50),
+    )
+
+// On crée la table qui répertorie les dernières valeurs que l'utilisateur
+// a utilisé
+CREATE TABLE LastValueUser(
+    IDUser INT PRIMARY KEY,
+    Value1 FLOAT,
+    Value2 FLOAT,
+    Value3 FLOAT,
+    Value4 FLOAT,
+    Value5 FLOAT,
+    Value6 FLOAT,
+    Value7 FLOAT,
+    Value8 FLOAT,
+    Value9 FLOAT,
+    Value10 FLOAT,
+
+    Value11 FLOAT,
+    Value12 FLOAT,
+    Value13 FLOAT,
+    Value14 FLOAT,
+    Value15 FLOAT,
+    Value16 FLOAT,
+    Value17 FLOAT,
+    Value18 FLOAT,
+    Value19 FLOAT,
+    Value20 FLOAT,
+    
+    Value21 FLOAT,
+    Value22 FLOAT,
+    Value23 FLOAT,
+    Value24 FLOAT,
+    Value25 FLOAT,
+    Value26 FLOAT,
+    Value27 FLOAT,
+    Value28 FLOAT,
+    Value29 FLOAT,
+    Value30 FLOAT, 
+   
+    Value31 FLOAT,
+    Value32 FLOAT,
+    Value33 FLOAT,
+    Value34 FLOAT,
+    Value35 FLOAT,
+    Value36 FLOAT,
+    Value37 FLOAT,
+    Value38 FLOAT,
+    Value39 FLOAT,
+)  
