@@ -1,4 +1,4 @@
-README: Projet ACOL
+README: ACOL Project
 Loïc SIMEON
 Nicolas PEYRICHOU
 Nathan SALLEYRETTE
